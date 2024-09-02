@@ -16,7 +16,7 @@
   "type": "module",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsup",
     "check-exports": "attw --pack",
     "local-release": "changeset version && changeset publish"
   },
@@ -27,7 +27,14 @@
     "@arethetypeswrong/cli": "^0.15.4",
     "@changesets/cli": "^2.27.7",
     "@types/react": "^18.3.5",
+    "tsup": "^8.2.4",
     "typescript": "^5.5.4"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/index.js"
+    }
   },
   "dependencies": {
     "-": "^0.0.1",
