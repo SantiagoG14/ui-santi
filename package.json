@@ -1,6 +1,6 @@
 {
   "name": "ui-santi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is a test ui library",
   "keyword": [
     "ui lib"
@@ -18,7 +18,7 @@
   "scripts": {
     "build": "tsc",
     "check-exports": "attw --pack",
-    "local-release": "changset version && changeset publish"
+    "local-release": "changeset version && changeset publish"
   },
   "keywords": [],
   "author": "",
