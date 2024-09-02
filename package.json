@@ -14,14 +14,21 @@
     "dist"
   ],
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "check-exports": "attw --pack",
+    "local-release": "changset version && changeset publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@arethetypeswrong/cli": "^0.15.4",
+    "@changesets/cli": "^2.27.7",
     "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "-": "^0.0.1"
   }
 }
