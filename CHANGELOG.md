@@ -1,5 +1,11 @@
 # ui-santi
 
+## 1.0.3
+
+### Patch Changes
+
+- 0a494d4: add a card component
+
 ## 1.0.2
 
 ### Patch Changes
