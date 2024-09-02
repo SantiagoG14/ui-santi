@@ -1,5 +1,11 @@
 # ui-santi
 
+## 1.0.4
+
+### Patch Changes
+
+- 9020b12: build with tsup :)
+
 ## 1.0.3
 
 ### Patch Changes
